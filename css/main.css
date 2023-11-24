@@ -1,0 +1,139 @@
+/* This file is reeserved for overriding and extending the template styles. */
+.fc .fc-col-header-cell-cushion{
+    padding-right: 0;
+    padding-left: 0;
+    max-width: 37px;
+}
+@media(max-width:576px){
+    .fc .fc-col-header-cell-cushion{
+        padding-left: 0;
+        padding-right: 0;
+        max-width: 32px;
+        font-size: 11px!important;
+    }
+}
+@media(min-width:768px){
+    .fc .fc-col-header-cell-cushion{
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media(min-width:992px){
+    .fc .fc-col-header-cell-cushion{
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media(min-width:1200px){
+    .fc .fc-col-header-cell-cushion {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+.fc-toolbar-title {
+    font-size: 1em !important;
+}
+
+.google-btn {
+    box-shadow: 0px 0px 3px 0px #bab9b9 !important;
+    color: var(--dark) !important;
+    border: 0;
+    text-decoration: none;
+    padding: 8px 20px;
+    display: flex;
+    align-items: center;
+}
+.google-btn-container {
+
+    flex-basis: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.flex-b-48 {
+    flex-basis: 48%;
+}
+
+.flex-b-30 {
+    flex-basis: 30%;
+}
+
+.flex-b-33 {
+    flex-basis: 30%;
+}
+
+.flex-b-40 {
+    flex-basis: 40%;
+}
+
+.flex-b-60 {
+    flex-basis: 60%;
+}
+
+.or {
+    flex-basis:33%;display: flex ;justify-content: center;align-items: center
+}
+@media(min-width:992px) and (max-width:1199.98px){
+    .auth-bg {
+        flex-basis: 58.333%;
+    }
+    .auth-wrapper {
+        flex-basis: 41.666%;
+    }
+}
+@media(min-width:768px) and (max-width:991.98px){
+    .auth-bg {
+        flex-basis: 50%;
+    }
+    .auth-wrapper {
+        flex-basis: 50%;
+    }
+    .google-btn{
+        padding: 8px 10px;
+    }
+
+}
+@media(max-width:767.98px){
+    .auth-bg {
+        display: none;
+    }
+    .auth-wrapper {
+        flex-basis: 100%;
+    }
+}
+
+.watch-sample-btn, .fav-btn{
+    background-color: #F86464 !important;
+}
+
+.like-btn {
+
+    background-color: #fff !important;
+    border: 1px solid #f76364;
+
+}
+
+@media(max-width:991px){
+    html[data-placement=vertical] .nav-container .nav-content .user-container .dropdown-menu, html[data-placement=horizontal] .nav-container.mobile-side-ready .nav-content .user-container .dropdown-menu, html[data-placement=vertical] .nav-container.mobile-side-ready .nav-content .user-container .dropdown-menu {
+
+        display: none;
+    }
+    html[data-navcolor=light] .nav-container .user-container .user:hover {
+         background: none !important;
+    }
+    html[data-placement=horizontal] .nav-container .user-container .user:hover, html[data-placement=vertical] .nav-container .user-container .user:hover {
+         box-shadow: none !important;
+    }
+    .mobile-nav-item {
+        display: block !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    #loadVideo .modal-xl {
+        width: 50%;
+        height: 50%;
+    }
+}

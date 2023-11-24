@@ -1,0 +1,20 @@
+/**
+styling for the navbar that is currently used on the homepage, login page and contact page
+@REMINDER it's probably better to import all navbar stylines from styles.css to here if this is ok with the project structre
+**/
+
+
+header{ z-index: 200;}
+#header-wrapper {
+    padding: var(--regular-white-space) var(--med-white-space);
+   
+}
+
+nav a {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+    color: #fff;
+    text-decoration: none;
+    font-style: normal;
+}
